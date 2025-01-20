@@ -1,56 +1,68 @@
 import { v4 as uuidv4 } from 'uuid';
 
 // Import images
-import AmazonImage from '../public/images/brands/amazon_gray.png';
-import SonyImage from '../public/images/brands/sony_gray.png';
-import AdidasImage from '../public/images/brands/adidas_gray.png';
-import FilaImage from '../public/images/brands/fila_gray.png';
-import NBImage from '../public/images/brands/nb_gray.png';
-import SamsungImage from '../public/images/brands/samsung_gray.png';
-import CanonImage from '../public/images/brands/canon_gray.png';
-import PumaImage from '../public/images/brands/puma_gray.png';
+import CanvaImage from '../public/images/brands/canva.png';
+import AppleImage from '../public/images/brands/apple.png';
+import AtlassianImage from '../public/images/brands/atlassian.png';
+import BestBuyImage from '../public/images/brands/bestbuy.png';
+import eBayImage from '../public/images/brands/ebay.png';
+import WalmartImage from '../public/images/brands/walmartecommerce.png';
+import WEXImage from '../public/images/brands/wex.png';
+import PearsonVUEImage from '../public/images/brands/pearsonvue.png';
+import PacksmithImage from '../public/images/brands/packsmith.png';
+import WalgreensImage from '../public/images/brands/walgreens.png';
 
 export const clientsHeading = 'Some of the brands I worked with';
 
 export const clientsData = [
 	{
 		id: uuidv4(),
-		title: 'Amazon',
-		img: AmazonImage,
+		title: 'Canva',
+		img: CanvaImage,
 	},
 	{
 		id: uuidv4(),
-		title: 'Sony',
-		img: SonyImage,
+		title: 'Apple',
+		img: AppleImage,
 	},
 	{
 		id: uuidv4(),
-		title: 'Adidas',
-		img: AdidasImage,
+		title: 'Atlassian',
+		img: AtlassianImage,
 	},
 	{
 		id: uuidv4(),
-		title: 'FILA',
-		img: FilaImage,
+		title: 'Best Buy',
+		img: BestBuyImage,
 	},
 	{
 		id: uuidv4(),
-		title: 'NB',
-		img: NBImage,
+		title: 'eBay',
+		img: eBayImage,
 	},
 	{
 		id: uuidv4(),
-		title: 'SAMSUNG',
-		img: SamsungImage,
+		title: 'Walmart',
+		img: WalmartImage,
 	},
 	{
 		id: uuidv4(),
-		title: 'CANON',
-		img: CanonImage,
+		title: 'WEX',
+		img: WEXImage,
 	},
 	{
 		id: uuidv4(),
-		title: 'PUMA',
-		img: PumaImage,
+		title: 'Pearson VUE',
+		img: PearsonVUEImage,
+	},
+	{
+		id: uuidv4(),
+		title: 'Packsmith',
+		img: PacksmithImage,
+	},
+	{
+		id: uuidv4(),
+		title: 'Walgreens',
+		img: WalgreensImage,
 	},
 ];
